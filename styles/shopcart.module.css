@@ -1,0 +1,115 @@
+.mainContainer{
+    display: flex;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 900px;
+}
+
+.direction{
+
+display: flex;
+gap: 2.5rem;
+
+}
+
+
+.heading{
+color: black;
+font-weight: 500;
+font-size:20px;
+}
+.price{
+    color: black;
+    font-weight:500;
+    font-size:20px;
+    
+     
+}
+
+.colorSize{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    
+}
+.colorSize p{
+    color: rgb(72, 71, 71);
+}
+
+.color{
+    color: rgb(72, 71, 71);
+}
+
+.stock{
+    margin-top: 9rem;
+    display: flex;
+    gap: 0.9rem;
+}
+
+.order{
+    padding-top: 10rem;
+    min-height: 200px;
+   
+    width: 30%;
+}
+
+.orderwrapper{
+    background-color: rgb(249 250 251 / 1);
+    padding: 20px;
+}
+
+
+.orderSummary{
+    font-size: x-large;
+    font-style: normal;
+}
+
+.orderInd{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2rem;
+}
+.orderInd p{
+    font-weight: bold;
+   
+
+}
+.orderInd p:nth-child(1){
+    color: gray;
+    font-size: 17px;
+}
+.orderInd p:nth-child(2){
+    color: rgb(26, 25, 25);
+    font-size: 15px;
+}
+
+
+.orderTotal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+.orderTotal p:nth-child(2){
+    color: rgb(26, 25, 25);
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.noData{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:60vh;
+}
+.noData p{
+font-size: larger;
+font-weight: 400;
+color: rgb(16, 115, 154);
+}
